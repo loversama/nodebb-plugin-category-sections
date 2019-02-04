@@ -12,9 +12,6 @@
 			"hook": "filter:admin.header.build", "method": "addAdminNavigation"
 		},
 		{
-			"hook": "action:homepage.get:categories", "method": "getCategories"
-		},
-		{
 			"hook": "filter:categories.get", "method": "getCategories"
 		}
 	],
