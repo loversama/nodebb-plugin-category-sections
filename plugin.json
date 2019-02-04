@@ -15,7 +15,7 @@
 			"hook": "action:homepage.get:categories", "method": "getCategories"
 		},
 		{
-			"hook": "filter:controllers.categories.get", "method": "getCategories"
+			"hook": "filter:categories.get", "method": "getCategories"
 		}
 	],
 	"staticDirs": {
