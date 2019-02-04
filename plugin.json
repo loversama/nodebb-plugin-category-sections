@@ -12,7 +12,7 @@
 			"hook": "filter:admin.header.build", "method": "addAdminNavigation"
 		},
 		{
-			"hook": "filter:categories.get", "method": "getCategories"
+			"hook": "filter:admin.category.get", "method": "getCategories"
 		}
 	],
 	"staticDirs": {
